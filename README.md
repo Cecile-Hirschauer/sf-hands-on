@@ -16,3 +16,16 @@ Installing & Setting up the Symfony Framework
 ### check security:
 ```symfony check:security```
 
+### Check routes on console with debugger
+`symfony console debug:router`
+```` ---------------- -------- -------- ------ -------------------------- 
+Name             Method   Scheme   Host   Path
+ ---------------- -------- -------- ------ -------------------------- 
+_preview_error   ANY      ANY      ANY    /_error/{code}.{_format}  
+app_index        ANY      ANY      ANY    /                         
+app_show_one     ANY      ANY      ANY    /messages/{id}
+ ---------------- -------- -------- ------ -------------------------- ```
+
+
+
+
