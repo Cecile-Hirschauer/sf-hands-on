@@ -18,14 +18,14 @@ Installing & Setting up the Symfony Framework
 
 ### Check routes on console with debugger
 `symfony console debug:router`
-```` ---------------- -------- -------- ------ -------------------------- 
+
+---------------- -------- -------- ------ -------------------------- 
 Name             Method   Scheme   Host   Path
  ---------------- -------- -------- ------ -------------------------- 
 _preview_error   ANY      ANY      ANY    /_error/{code}.{_format}  
 app_index        ANY      ANY      ANY    /                         
 app_show_one     ANY      ANY      ANY    /messages/{id}
- ---------------- -------- -------- ------ -------------------------- ```
+ ---------------- -------- -------- ------ -------------------------- 
 
-
-
-
+### Install twig templates
+`composer require twig`
